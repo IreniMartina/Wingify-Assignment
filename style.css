@@ -1,0 +1,535 @@
+.ellipse {
+  position: absolute;
+  width: 2307px;
+  height: 959px;
+  left: -422px;
+  top: -578px;
+
+  background: #C7ACDA;
+  border-radius: 50%;
+}
+
+.container {
+  position: absolute;
+  top: 117px;
+  left: 700px;
+  width: 60%;
+  height: 30%;
+  background: black;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.triangleright {
+  position: relative;
+  top: 117px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+
+  background: #C7ACDA;
+
+}
+
+.rectangle1 {
+  position: absolute;
+
+  width: 400px;
+  height: 542px;
+  left: 700px;
+  top: 117px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 361px;
+
+  height: 582px;
+  left: 339px;
+  top: 117px;
+  background: url(image.jpg);
+  border-radius: 0px;
+}
+
+.rectangle2 h1 {
+  position: absolute;
+  width: 264px;
+  height: 45px;
+  left: 10px;
+  top: 200px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+
+  color: #FFFFFF;
+}
+
+.rectangle2 p {
+  position: absolute;
+  width: 264px;
+  height: 120px;
+  left: 10px;
+  top: 272px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.title {
+  width: 196px;
+  height: 28px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+
+}
+
+#emailentry {
+  position: absolute;
+  width: 122px;
+  height: 19px;
+  left: 20px;
+  top: 58px;
+  padding-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+#email {
+  box-sizing: border-box;
+  position: absolute;
+  width: 275px;
+  height: 42px;
+  left: 0px;
+  background: #FFFFFF;
+  border: 2px solid black;
+}
+
+
+#dob {
+  padding-top: 30px;
+}
+
+#dob label {
+  position: absolute;
+  height: 19px;
+  left: 20px;
+  top: 175px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+
+#datelabel {
+  position: absolute;
+  width: 29px;
+  height: 16px;
+  left: 20px;
+  top: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(102, 102, 102);
+}
+
+#monthlabel {
+  position: absolute;
+  width: 29px;
+  height: 16px;
+  left: 80px;
+  top: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(102, 102, 102);
+
+}
+
+#yearlabel {
+  position: absolute;
+  width: 29px;
+  height: 16px;
+  left: 190px;
+  top: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(102, 102, 102);
+}
+
+#date {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50px;
+  height: 42px;
+  left: 20px;
+  top: 220px;
+  background: #FFFFFF;
+  border: 2px solid #BDBDBD;
+}
+
+#month {
+  box-sizing: border-box;
+  position: absolute;
+  width: 105px;
+  height: 42px;
+  left: 80px;
+  top: 220px;
+  background: #FFFFFF;
+  border: 2px solid #BDBDBD;
+}
+
+#year {
+  box-sizing: border-box;
+  position: absolute;
+  width: 105px;
+  height: 42px;
+  left: 190px;
+  top: 220px;
+  background: #FFFFFF;
+  border: 2px solid #BDBDBD;
+}
+
+#pwd {
+  position: absolute;
+  width: 191px;
+  height: 19px;
+  left: 20px;
+  top: 300px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+#password {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 275px;
+  height: 42px;
+  left: 0px;
+
+
+  background: #FFFFFF;
+
+
+  border: 2px solid black;
+}
+
+#radioinput {
+  position: absolute;
+  width: 250px;
+  height: 19px;
+  left: 20px;
+  top: 400px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+}
+
+#submit {
+  position: absolute;
+  width: 188px;
+  height: 44px;
+  background: #2D9CDB;
+  border-radius: 4px;
+  top: 500px;
+}
+
+
+
+@media (max-width:415px) and (min-width:360px) {
+  .rectangle2 {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 944px;
+    height: 392px;
+    left: -150px;
+    
+    border-radius: 60%;
+
+  }
+
+  .rectangle1 {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 300px;
+    background: #ffffff;
+    padding: 20px;
+  }
+
+  .rectangle2 h1 {
+    position: absolute;
+
+    width: 264px;
+    height: 45px;
+    left: 20px;
+    top: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+  }
+
+  .rectangle2 p {
+    position: absolute;
+    width: 264px;
+    height: 120px;
+    left: 20px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+  }
+
+  .title {
+    width: 196px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+  }
+
+  #emailentry {
+    position: absolute;
+    width: 122px;
+    height: 19px;
+    left: 20px;
+    top: 58px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  #email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 275px;
+    height: 42px;
+    left: 0px;
+    background: #FFFFFF;
+    border: 2px solid black;
+  }
+
+
+  #dob {
+    padding-top: 30px;
+  }
+
+  #dob label {
+    position: absolute;
+    height: 19px;
+    left: 20px;
+    top: 175px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+
+  #datelabel {
+    position: absolute;
+    width: 29px;
+    height: 16px;
+    left: 20px;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+  }
+
+  #monthlabel {
+    position: absolute;
+    width: 29px;
+    height: 16px;
+    left: 80px;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+
+  }
+
+  #yearlabel {
+    position: absolute;
+    width: 29px;
+    height: 16px;
+    left: 190px;
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(102, 102, 102);
+  }
+
+  #date {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    left: 20px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+  }
+
+  #month {
+    box-sizing: border-box;
+    position: absolute;
+    width: 105px;
+    height: 42px;
+    left: 80px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+  }
+
+  #year {
+    box-sizing: border-box;
+    position: absolute;
+    width: 105px;
+    height: 42px;
+    left: 190px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+  }
+
+  #pwd {
+    position: absolute;
+    width: 191px;
+    height: 19px;
+    left: 20px;
+    top: 300px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  #password {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 275px;
+    height: 42px;
+    left: 0px;
+
+
+    background: #FFFFFF;
+
+
+    border: 2px solid black;
+  }
+
+  #radioinput {
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    left: 20px;
+    top: 400px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+  }
+
+  #submit {
+    position: absolute;
+    width: 188px;
+    height: 44px;
+    background: #2D9CDB;
+    border-radius: 4px;
+    top: 500px;
+  }
+}
