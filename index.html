@@ -10,27 +10,22 @@
 
 <body>
     <div class="ellipse"></div>
-   <div>container</div>
-        <div class="triangleright"></div>
    
-    <div class="container2">
-        <div class="triangleleft"></div>
-    </div>
 
     <div class="rectangle1">
 
-        <form id="form">
+        <form id="form" method="post">
             <div class="title">Create an account</div>
-            <br />
-            <br />
+            <br>
+            <br>
 
             <div id="emailentry">
                 <div><label for="email">Enter your email</label></div>
                 <input type="email" name="email" id="email" />
-
+                <small></small>
             </div>
-            <br />
-            <br />
+            <br>
+            <br>
 
             <div id="dob">
                 <label>Date of Birth(Optional)</label>
@@ -45,17 +40,17 @@
                     <select id="year" name="dd" onchange="change_date(this)"></select>
                 </div>
             </div>
-            <br />
-            <br />
+            <br>
+            <br>
 
             <div id="pwd">
                 <label for="password">Choose a strong password</label>
                 <div>
-                    <input type="password" name="password" id="password" />
+                    <input type="password" name="password" id="password">
                 </div>
             </div>
-            <br />
-            <br />
+            <br>
+            <br>
 
             <div id="radioinput">
                 <label>Are you an individual or an agency</label>
@@ -66,18 +61,20 @@
 
                 </div>
             </div>
-            <br />
-            <br />
+            <br>
+            <br>
             <div id="submitbutton">
                 <input type="submit" id="submit" />
             </div>
         </form>
     </div>
+   
 
     <div class="rectangle2">
         <h1>Sample Heading</h1>
         <p>This is a design assignment</p>
     </div>
+<script src="main.js"></script>
 </body>
 
 </html>
